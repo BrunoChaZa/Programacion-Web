@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../asset/css/style.css">
+    <title>Document</title>
+</head>
+<body class="containerCont">
+    <nav class="navBar">
+        <a href="../index.html">Inicio</a>
+        <a href="./actividades.html">actividades</a>
+        <a href="./staff.html">staff</a>
+        <a href="./contacto.html">contactos</a>
+        <a href="./ubicacion.html">ubicacion</a>
+        <a href=""></a>
+    </nav>
+    <header class="headerC">
+        <h1 class="contacto">Contactos</h1>
+    </header>
+    <main class="mainC">
+      
+        <form class="formulario" action="contactos.php" method="post">
+            <fieldset class="cajaForm">
+                <legend class=>Datos Personales</legend>
+        <input type="text" name="Nombre" id="" placeholder="Ingrese su Nombre" required >
+        <input type="number" name="DNI" id="" placeholder="Ingrese su DNI" required>
+        <input type="email" name="Email" id="" placeholder="Ingrese su Email" required>
+        <textarea name="Comentario" id="" cols="30" rows="10">ingrese su comentario</textarea>
+           </fieldset>
+        <div class="sexo">
+            <label for="Sexo">Hombre</label>
+            <input type="radio" name="Sexo" id="" value="H">
+            <label for="Sexo">Mujer</label>
+            <input type="radio" name="Sexo" id="" value="M">
+            <label for="Sexo">Otros</label>
+            <input type="radio" name="Sexo" id="" value="O">
+        </div>
+
+        <div class="aceptar">
+                <div>Acepto terminos y condiciones</div>
+                <input type="checkbox" name="acepto" id="" value="Si" required>
+        
+                
+            <H2>Seleciona actividad</H2>
+                <select name="actividad" >
+                    <option value="BM">Boxeo 08:30/10:00</option>
+                    <option value="KM">Kick Boxing 10:00/12:30</option>
+                    <option value="JM">Taekwondo 11:00/12:30</option>
+                    <option value="BT">Boxeo 16:00/17:30</option>
+                    <option value="KT">Kick Boxing 17:30/19:00</option>
+                    <option value="JT">Taekwondo 19:00/20:30</option>
+
+
+                </select>
+        
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Reiniciar">
+        </form> 
+    </div>     
+</main>
+
+    
+    <aside>
+
+    </aside>
+    
+
+    <footer class="footer">
+        <h5 class="pieDePagina">©2022 Bruno Chaza Derechos Reservados</h5>
+    </footer>
+    
+    
+</body>
+</html>
