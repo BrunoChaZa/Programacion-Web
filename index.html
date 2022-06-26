@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./asset/css/style.css">
 </head>
 <body class="container">
@@ -25,7 +26,7 @@
     
         <h3 class="tituloVal">Nuestros Pilares</h3>
         <div class="cajaValo">
-            <div class="valores">
+            <div class="valores" data-aos="fade-down">
                 <div>
                   <h4>Disciplina</h4>
                   <img src="./asset/img/pilar.png" alt="">
@@ -51,6 +52,11 @@
     <footer class="footer" id="pie">
         <h5 class="pieDePagina">©2022 Bruno Chaza Derechos Reservados</h5>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     
     
 </body>
