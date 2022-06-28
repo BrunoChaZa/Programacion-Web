@@ -33,11 +33,12 @@
 }
 .navBar{
     grid-area:navBar;
+    background-image: linear-gradient(180deg, #000000 0%, #434343 100%);
     font-size: 18px;
     padding: 25px 50px;
     border: 1px solid black ;
     text-align: center;
-    background-image: url("../img/fondo\ negro.jpg");
+   
     font-family: Black Ops One;
 }
 .navBar a{
